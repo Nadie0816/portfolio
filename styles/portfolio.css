@@ -68,14 +68,35 @@ p {
 }
 @media (max-width: 960px) {
   h1 {
-    font-size: 44px;
+    font-size: 60px;
     line-height: 2;
   }
   h2 {
     font-size: 44px;
   }
   .hero {
+    text-align: left;
+  }
+  .project-description {
+    padding: 0;
     text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .hero {
+    text-align: center;
+    padding: 150px 20px;
+  }
+  .hero p {
+    font-size: 30px;
+    margin-bottom: 10px;
   }
   .project-description {
     padding: 0;
