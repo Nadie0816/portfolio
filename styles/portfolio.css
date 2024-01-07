@@ -47,19 +47,29 @@ p {
   line-height: 1.5;
   font-size: 24px;
 }
-.aboutsection {
+.contentcontainer {
   padding: 160px 20px;
 }
-.aboutsection h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.aboutsection h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-familty);
 }
-.aboutcontent {
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-familty);
+  line-height: 1;
+  margin: 20px 0 0;
+}
+.content p {
+  font-size: 14px;
+}
+.content {
   margin: 30px;
+  text-align: center;
 }
 
 .btn-branding {
@@ -92,7 +102,7 @@ p {
   .hero {
     text-align: left;
   }
-  .aboutsection {
+  .content {
     text-align: center;
     padding: 0;
   }
@@ -114,7 +124,7 @@ p {
     text-align: center;
     padding: 150px 20px;
   }
-  .aboutsection {
+  .content {
     text-align: center;
   }
   .hero p {
